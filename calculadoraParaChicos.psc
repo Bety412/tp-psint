@@ -44,11 +44,20 @@ Algoritmo calculadoraParaChicos
 				Escribir 'QUERES SEGUIR PROBANDO?, INGRESA UNA OPCION VALIDA POR FAVOR'
 				Leer opcion
 			4:
-				res <- num1/num2
+				si	num2<>0 Entonces
+					res <- num1/num2
+				
 				Escribir 'La Division es: ', res
 				Escribir 'MUY BIEN HECHO LO LOGRASTE!!!'
 				Escribir 'QUERES SEGUIR PROBANDO?, INGRESA UNA OPCION VALIDA POR FAVOR'
+				
+			SiNo
+				Escribir ""
+				Escribir "El segundo numero para dividir no puede ser (0) intentelo de nuevo"
+				Escribir ""
 				Leer opcion
+			FinSi
+		
 			5:
 				Escribir 'Ingresa 5 para Volver al MENU PRINCIPAL'
 				Escribir 'QUERES SEGUIR PROBANDO?, INGRESA UNA OPCION VALIDA POR FAVOR'
